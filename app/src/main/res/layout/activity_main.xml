@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table Name"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/search_button">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/settings_button">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/menu_button">
+            </ImageView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#787878">
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C2B280"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Status"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="ID"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Requests"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:clickable="true">
+                </CheckBox>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:text="Marley Doe"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="124562"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="22"
+                android:textSize="17sp">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:clickable="true">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:text="Rayna Levin"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="719413"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="12"
+                android:textSize="17sp">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:clickable="true">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:text="John Doe"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="512447"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="10"
+                android:textSize="17sp">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:clickable="true">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:text="Kate Martis"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="822445"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="14"
+                android:textSize="17sp">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:clickable="true">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:text="Someone"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="159456"
+                android:textSize="17sp">
+            </TextView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="49"
+                android:textSize="17sp">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#787878">
+    </LinearLayout>
+
+
+</LinearLayout>
